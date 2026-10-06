@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" fill="none" role="img" aria-labelledby="title description">
+<title id="title">Skyward — Your next journey, one conversation away.</title>
+<desc id="description">Midnight blue banner with a mint flight path. AI flight discovery with FastAPI, LangGraph, and React.</desc>
+<defs>
+<linearGradient id="background" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse"><stop stop-color="#101E31"/><stop offset="1" stop-color="#183E47"/></linearGradient>
+<radialGradient id="glow"><stop stop-color="#61D2B3" stop-opacity=".19"/><stop offset="1" stop-color="#61D2B3" stop-opacity="0"/></radialGradient>
+<linearGradient id="trail" x1="745" y1="318" x2="1110" y2="142" gradientUnits="userSpaceOnUse"><stop stop-color="#A7E5CD" stop-opacity=".1"/><stop offset="1" stop-color="#A7E5CD"/></linearGradient>
+</defs>
+<rect width="1280" height="420" rx="24" fill="url(#background)"/>
+<circle cx="1040" cy="210" r="330" fill="url(#glow)"/>
+<g stroke="#A7E5CD" stroke-opacity=".11"><circle cx="1035" cy="217" r="168"/><ellipse cx="1035" cy="217" rx="85" ry="168"/><path d="M869 217H1201M900 120H1171M900 314H1171"/></g>
+<path d="M737 328C791 294 844 357 917 302S991 204 1119 134" stroke="url(#trail)" stroke-width="3" stroke-dasharray="8 9" stroke-linecap="round"/>
+<circle cx="737" cy="328" r="5" fill="#A7E5CD"/><circle cx="737" cy="328" r="12" stroke="#A7E5CD" stroke-opacity=".3"/>
+<g transform="translate(1120 130) rotate(47)"><path d="M0-33 7-5 29 12V20L6 12 5 31 13 38V43L0 39-13 43V38L-5 31-6 12-29 20V12L-7-5Z" fill="#A7E5CD"/></g>
+<g font-family="Inter,Segoe UI,Arial,sans-serif">
+<text x="64" y="66" font-size="12" font-weight="700" letter-spacing="3" fill="#A7E5CD">AI FLIGHT DISCOVERY · DEMO &amp; SANDBOX</text>
+<text x="60" y="170" font-size="92" font-weight="750" letter-spacing="-5" fill="#FFFFFF">skyward<tspan fill="#A7E5CD">.</tspan></text>
+<text x="64" y="223" font-size="26" font-weight="500" fill="#D5E1EC">Your next journey, one conversation away.</text>
+<text x="64" y="259" font-size="17" fill="#99AEBD">Explore flights. Review the details. Try the booking flow.</text>
+<rect x="64" y="307" width="306" height="38" rx="19" fill="#A7E5CD" fill-opacity=".09" stroke="#A7E5CD" stroke-opacity=".25"/>
+<text x="85" y="331" font-size="13" font-weight="600" letter-spacing=".5" fill="#B9E8D7">FASTAPI  /  LANGGRAPH  /  REACT</text>
+<text x="64" y="382" font-size="12" fill="#7896A4">START WITHOUT API KEYS</text>
+</g></svg>
