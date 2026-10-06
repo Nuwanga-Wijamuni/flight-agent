@@ -1,0 +1,13 @@
+services:
+  postgres:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_USER: flight
+      POSTGRES_PASSWORD: flight
+      POSTGRES_DB: flight
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - flight_data:/var/lib/postgresql/data
+volumes:
+  flight_data:
